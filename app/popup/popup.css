@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    min-width: 270px;
+    max-width: 300px;
+    padding: 10px;
+    margin: 0;
+    background-color: #1e272c;
+    color: #CFD8DC;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 7px;
+    border-radius: 12px;
+    background-color: #263238;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.statusText {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #ECEFF1;
+    text-align: center;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.toggle {
+    position: relative;
+    display: block;
+    margin: 0 auto 10px;
+    width: 150px;
+    height: 60px;
+    color: white;
+    outline: 0;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 2px solid #546E7A;
+    background-color: #263238;
+    transition: all 500ms;
+}
+
+.toggle:active {
+    background-color: #222b30;
+}
+
+.toggle:hover:not(.toggle--moving):after {
+    background-color: #455A64;
+}
+
+.toggle:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 4px;
+    width: calc(50% - 4px);
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    background-color: #37474F;
+    border: 2px solid;
+    transition: all 500ms;
+}
+
+.toggle--on:after {
+    content: 'On';
+    border-radius: 50px 5px 5px 50px;
+    color: #66BB6A;
+    transform: translate(0, 0);
+}
+
+.toggle--off:after {
+    content: 'Off';
+    border-radius: 5px 50px 50px 5px;
+    transform: translate(100%, 0);
+    color: #f44336;
+}
+
+.toggle--moving {
+    background-color: #222b30;
+}
+
+.toggle--moving:after {
+    color: transparent;
+    border-color: #4b6370;
+    background-color: #314048;
+    transition: color 0s,
+        transform 500ms,
+        border-radius 500ms,
+        background-color 500ms;
+}
+
+.toggle.no-transition,
+.toggle.no-transition:after {
+    transition: none !important;
+}
