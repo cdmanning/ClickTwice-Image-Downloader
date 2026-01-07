@@ -14,7 +14,7 @@ ClickTwice is a lightweight productivity tool that lets you download images just
 
 ### 1. Installation
 
-Install the "Click-Twice Image Downloader" extension directly from the [Chrome Web Store]() <--- This link doesn't actually link to anything as the Extension is currently pending approval.
+Install the "Click-Twice Image Downloader" extension directly from the [Chrome Web Store](http://chromewebstore.google.com/detail/dmhihebgiigoehbpbhfbokpniflemppj)
 
 ### 2. Download Images
 
