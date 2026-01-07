@@ -1,14 +1,14 @@
 # ![](documentation/ReadMeIcon.png) Click-Twice Image Downloader
 
-A chrome extension for simplifying the task of downloading images from a website with a simple double-click.
+ClickTwice is a lightweight productivity tool that lets you download images just by left-clicking without all that right-clicking and "Save As" hassle.
 
 ## ✨ Features
 
-* **On/Off Toggle** 
-* **Single and Double Click Modes**
-* **Custom Downloads Folder**
-* **Saves Seconds Per Day**
-* **Reduces Carpal Tunnel**
+* **Time Savings:** Eliminate the "Save As" dialogue to shave seconds off every image you download.
+* **Download Pathing:** Set a custom subfolder for automatic saving in your Downloads directory.
+* **Performance First:** Toggle Image Monitoring on/off to run only when needed for minimal impact on browsing.
+* **Choose Your Trigger:** Toggle between using single or double clicks to trigger download.
+* **Reduce Carpal Tunnel:** Reduce repetitive clicking and menu-hunting to minimize wrist strain and fatigue.
   
 ## 🛠️ Installation & Usage
 
@@ -27,5 +27,5 @@ Download images with a simple double-click:
 
 ## ⚡ Pro-Tips
 
-* You can download directly to the systems Downloads folder by leaving the Download Folder field blank.
+* You can download directly to the systems Downloads folder by leaving the `Download Folder` field blank.
 * Listeners are used to detect when you want to download an image. Turn the extension off when not in use to load pages faster.
