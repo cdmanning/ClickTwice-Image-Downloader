@@ -6,7 +6,7 @@ ClickTwice is a lightweight productivity tool that lets you download images just
 
 * **Time Savings:** Eliminate the "Save As" dialogue to shave seconds off every image you download.
 * **Download Pathing:** Set a custom subfolder for automatic saving in your Downloads directory.
-* **Performance First:** Toggle Image Monitoring" on/off to run only when needed for minimal impact on browsing.
+* **Performance First:** Toggle Image Monitoring on/off to run only when needed for minimal impact on browsing.
 * **Choose Your Trigger:** Toggle between using single or double clicks to trigger download.
 * **Reduce Carpal Tunnel:** Reduce repetitive clicking and menu-hunting to minimize wrist strain and fatigue.
   
