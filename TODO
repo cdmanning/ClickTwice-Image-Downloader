@@ -1,0 +1,6 @@
+- [X] Implement a preload property to fix popup animation
+- [X] Refine extension light-theme support
+- [X] Add visual feedback glow to images after a download is triggered
+- [X] Sanitize user input for folder naming stripping characters that would create invalid folders
+- [X] Implement selector for Single-click and Double-click modes
+- [X] Add an on/off toggle for listener injection into the active tab

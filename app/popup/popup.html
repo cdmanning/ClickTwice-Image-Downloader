@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ClickTwice</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body class="preload">
+  
+  <div class="app-container">
+
+    <header class="navbar">
+      <div class="brand">
+        <img src="../icons/icon-16.png" alt="ClickTwice Logo" class="logo">
+        <span>ClickTwice</span>
+      </div>
+    </header>
+
+    <main class="content">
+
+      <div class="list-item">
+        <div class="item-info">
+          <span class="title">Page Monitoring</span>
+          <span class="description">Toggle active listeners on web pages</span>
+        </div>
+        <label class="status-switch">
+          <input type="checkbox" id="toggleSwitch">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="settings-section" id="settingsArea">
+        <div class="list-item">
+          <div class="item-info">
+            <span class="title">Trigger Mode</span>
+            <span class="description">Set interaction type</span>
+          </div>
+          <select id="clickType" class="mode-selector">
+            <option value="click">Single Click</option>
+            <option value="dblclick">Double Click</option>
+          </select>
+        </div>
+        <div class="list-item">
+          <div class="item-info">
+            <span class="title">Download Folder</span>
+            <span class="description">Within downloads folder</span>
+          </div>
+          <input type="text" id="subFolder" class="folder-input" placeholder="ClickTwice" maxlength="64">
+        </div>
+      </div>
+      
+    </main>
+
+    <footer class="status-bar">
+      <span>Monitoring active tabs</span>
+    </footer>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
