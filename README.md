@@ -27,5 +27,5 @@ Download images with a simple double-click:
 
 ## ⚡ Pro-Tips
 
-* You can download directly to the systems Downloads folder by leaving the Download Folder field blank.
+* You can download directly to the systems Downloads folder by leaving the `Download Folder` field blank.
 * Listeners are used to detect when you want to download an image. Turn the extension off when not in use to load pages faster.
